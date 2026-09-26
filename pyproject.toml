@@ -41,5 +41,7 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "cartopy>=0.26.0",
+    "matplotlib>=3.11.2",
     "pytest>=9.1.1",
 ]
