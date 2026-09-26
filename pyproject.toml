@@ -28,6 +28,10 @@ dependencies = [
     "requests>=2.34.2",
 ]
 
+[project.urls]
+Homepage = "https://github.com/rtphokie/besselian2shape"
+Repository = "https://github.com/rtphokie/besselian2shape"
+
 [project.scripts]
 besselian2shape = "besselian2shape:main"
 
