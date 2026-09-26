@@ -9,7 +9,7 @@ Besselian elements are downloaded once from NASA's [Five Millennium Canon
 of Solar Eclipses](https://eclipse.gsfc.nasa.gov/) and cached locally.
 
 ![example shapefile result](eclipse_2024-04-08/eclipse_2024-04-08_north_america.png)
-Exmaple shapefile generated for the 2024-04-08 total solar eclipse
+Example shapefile generated for the 2024-04-08 total solar eclipse
 
 ## Installation
 
