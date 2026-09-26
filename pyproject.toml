@@ -1,0 +1,41 @@
+[project]
+name = "besselian2shape"
+version = "0.1.0"
+description = "Generate ESRI Shapefiles and Google Earth KML/KMZ files describing a solar eclipse's path from NASA Besselian elements"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Tony Rice", email = "rtphokie@gmail.com" }
+]
+requires-python = ">=3.11"
+keywords = ["eclipse", "astronomy", "gis", "shapefile", "kml", "besselian-elements"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=2.4.6",
+    "platformdirs>=4.11.15",
+    "pyshp>=3.1.6",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+besselian2shape = "besselian2shape:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
